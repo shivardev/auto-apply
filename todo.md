@@ -1,0 +1,2 @@
+- Need to extract Email,
+- Send Email
