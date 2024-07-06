@@ -31,7 +31,8 @@
     ],
     "permissions": [
       "activeTab",
-      "scripting"
+      "scripting",
+      "storage"
     ],
     "matches": [
       "https://dice.com/*"
