@@ -56,9 +56,13 @@ export class DiceApply {
             message: JSON.stringify(message)
           }
 
-
-          await sendData(jsonData)
-          this.clickInitialButton()
+          try {
+            await sendData(jsonData)
+          } catch (error) {
+            console.error(error)
+          }
+         
+          // this.clickInitialButton()
         } else {
           console.log('Element with id "__NEXT_DATA__" not found')
         }

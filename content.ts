@@ -30,7 +30,7 @@ const runthis = async () => {
                     const mobDiva = new JobDiva({ emailid: userData.email, firstName: userData.firstName, LastName: userData.lastName, msgBody: userData.body, queueName: userData.queueName })
                     mobDiva.runThis()
                 }
-            }, 3000);
+            }, 2000);
         } else {
             console.log(`Please enter the values ${userData}`)
         }
